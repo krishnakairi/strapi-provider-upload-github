@@ -1,0 +1,28 @@
+{
+  "name": "strapi-provider-upload-github",
+  "version": "1.0.0",
+  "description": "GitHub upload provider for Strapi Framework",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest test/ --config=test/jest-config.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@octokit/rest": "^18.0.4",
+    "fs-extra": "^9.0.1",
+    "lodash": "^4.17.20",
+    "normalize-url": "1.9.1",
+    "simple-git": "^2.20.1",
+    "uuid": "3.1.0"
+  },
+  "devDependencies": {
+    "chai": "4.1.2",
+    "jest": "^25.1.0",
+    "dotenv": "4.0.0"
+  }
+}
