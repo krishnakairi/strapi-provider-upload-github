@@ -10,7 +10,7 @@
   "scripts": {
     "test": "jest test/ --config=test/jest-config.js"
   },
-  "author": "",
+  "author": "krishna.kairi@outlook.com",
   "license": "ISC",
   "dependencies": {
     "@octokit/rest": "^18.0.4",
