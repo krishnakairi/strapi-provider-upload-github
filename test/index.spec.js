@@ -31,7 +31,6 @@ describe('GitHub Provider', () => {
     });
 
     it('should delete file form GitHub', async () => {
-        console.log(file.url);
         const result = await provider.delete(file);
         expect(result).to.equal(true);
     });
