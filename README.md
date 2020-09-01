@@ -22,20 +22,20 @@ npm install strapi-provider-upload-github
           "token": "***token***",
           "emptyBranch": "upload",
           "baseBranch": "master",
-          "publicBaseUrl": "https://user-name.github.io/site-assets",
+          "publicUrl": "https://user-name.github.io/site-assets",
           "sizeLimit": 1000000
       },
 }
 ```
 
 ## Parameters
-- repo: Github repo link
-- user: Github user name
-- token: Github user token [Creating a personal access token - GitHub Docs](https://docs.github.com/en/github/authenticating-to-github/creating-a-personal-access-token)
-- emptyBranch: Branch name with no files.
-- baseBranch: Branch pointed to github pages.
-- publicBaseUrl: Github pages public link
-- sizeLimit: file size limit
+- repo - github repo link
+- user - github user name
+- token - github user token [(Creating a personal access token - GitHub Docs)](https://docs.github.com/en/github/authenticating-to-github/creating-a-personal-access-token)
+- emptyBranch - branch name with no files (Empty branch used to auto merge uploaded files without any conflicts).
+- baseBranch - branch pointed to github pages.
+- publicUrl - github pages public url. (alternatively you can use public urls from [vercel](https://vercel.com/), [surge](https://surge.sh/), [netlify](https://www.netlify.com/))
+- sizeLimit - upload file size limit.
 
 ## Resources
 
