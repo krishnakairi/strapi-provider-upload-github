@@ -1,7 +1,17 @@
 {
   "name": "strapi-provider-upload-github",
   "version": "1.0.1",
-  "description": "GitHub upload provider for Strapi Framework",
+  "keywords": [
+    "upload",
+    "github",
+    "strapi",
+    "provider",
+    "file upload",
+    "auto merge",
+    "git"
+  ],
+  "description": "GitHub upload provider for strapi",
+  "homepage": "https://github.com/krishnakairi/strapi-provider-upload-github",
   "main": "lib/index.js",
   "directories": {
     "lib": "lib",
@@ -11,8 +21,25 @@
     "test": "jest test/ --config=test/jest-config.js",
     "release": "np"
   },
-  "author": "krishna.kairi@outlook.com",
-  "license": "ISC",
+  "strapi": {
+    "isProvider": true
+  },
+  "author": {
+    "email": "krishna.kairi@outlook.com",
+    "name": "Krishna Kairi",
+    "url": "https://krishnakairi.github.io"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/krishnakairi/strapi-provider-upload-github.git"
+  },
+  "bugs": {
+    "url": "https://github.com/krishnakairi/strapi-provider-upload-github/issues"
+  },
+  "engines": {
+    "node": ">= 10.0.0",
+    "npm": ">= 6.0.0"
+  },
   "dependencies": {
     "@octokit/rest": "^18.0.4",
     "fs-extra": "^9.0.1",
@@ -27,5 +54,6 @@
     "jest": "^25.1.0",
     "chance": "^1.1.7",
     "np": "*"
-  }
+  },
+  "license": "MIT"
 }
