@@ -1,6 +1,6 @@
 {
   "name": "strapi-provider-upload-github",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "GitHub upload provider for Strapi Framework",
   "main": "lib/index.js",
   "directories": {
