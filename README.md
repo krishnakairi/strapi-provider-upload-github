@@ -9,6 +9,12 @@ Github/Github-Pages provider for Strapi CMS file upload.
 npm install strapi-provider-upload-github
 ```
 
+## Prerequisite
+- Make sure git is installed and accessable at runtime on server.
+- Avoid using code repo for uploading assets.
+- Given empty branch should not contain any files.
+
+
 ## Config
 
 `./extensions/upload/config/config.json`
@@ -28,6 +34,7 @@ npm install strapi-provider-upload-github
 }
 ```
 
+
 ## Parameters
 - repo - github repo link
 - user - github user name
@@ -36,6 +43,8 @@ npm install strapi-provider-upload-github
 - baseBranch - branch name pointed to github pages.
 - publicUrl - github pages public url. (alternatively you can use public urls from [vercel](https://vercel.com/), [surge](https://surge.sh/), [netlify](https://www.netlify.com/))
 - sizeLimit - upload file size limit.
+
+
 
 ## Resources
 
